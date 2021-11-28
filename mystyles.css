@@ -130,45 +130,54 @@ padding-left: 16%;
     padding: 10px;
     overflow: hidden;
 }
-
-#ads{
-    display: inline-block;
+.ads{
+    width: 100%;
+   /*  */
+    padding-left: 12%;
+    padding-right: 12%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: inline-flex;
 }
-#smlimg{
-    
-    margin-top: 4%;
+.ad{
     width: 50%;
-    box-shadow: 5px 5px 15px rgb(223, 220, 195);
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    position: relative;
+    
+}
+.ad a{
+    width: 100%;
     display: block;
+}
+
+
+#smlimg{
+    margin-top: 4%;
+    width: 100%;
+    box-shadow: 5px 5px 15px rgb(223, 220, 195);
+    border-radius: 12px; 
 }
 #smlimg:hover{
     opacity: 0.8;
 }
 
 #smlimg1{
-
-    width: 50%;
+    height: 50%;
+    width: 100%;
     border-radius: 12px;
     box-shadow: 3px 3px 10px rgb(223, 220, 195);
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 #smlimg1:hover{
     opacity: 0.8;
 }
 
 #bigimg{
-  
-    margin-left: 35%;
-    margin-right: auto;
-    height:68vh;
+
+
     margin-top: 4%;
     border-radius: 12px;
-    box-shadow: -3px -3px 10px rgb(223, 220, 195);
+    box-shadow: -3px -3px 10px rgb(223 220 195);
 }
 #bigimg:hover{
     opacity: 0.8;
@@ -190,7 +199,7 @@ padding-left: 16%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 62%;
     margin-top: 3%;
 }
 .card{
@@ -205,13 +214,13 @@ padding-left: 16%;
     margin-top: 20px;
 }
 
-#sale{
+.sale{
     color: rgb(255, 255, 255);
     padding-left: 20px;
     border-radius: 8px;
     float: left;
     width: 30%;
-    
+    background-color: red;
     opacity: 0.5;
 }
 
@@ -273,7 +282,7 @@ padding-left: 16%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 62%;
     margin-top: 3%;
 }
 
@@ -334,7 +343,7 @@ padding-left: 16%;
 #footer{
     display: inline-block;
     padding-right: auto;
-    width: 40%;
+    width: 30%;
 }
 #about{
     font-size: 20px;
@@ -344,7 +353,7 @@ padding-left: 16%;
 }
 .links{
     display: inline-block;
-    
+    width: auto;
 }
 .link{
 
@@ -352,14 +361,14 @@ padding-left: 16%;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .quick{
     float: left;
     color: rgb(255, 176, 30);
     font-size: 20px;
-    padding-left: 80px;
+    padding-left: 40px;
 }
 .data a{
     
@@ -383,7 +392,7 @@ padding-left: 16%;
 .follow{
     display: inline-block;
     width: 30%;
-    padding-left: 80px;
+    padding-left: 180px;
     vertical-align: top;
     margin-top: 68px;
     color: rgb(255, 176, 30);
